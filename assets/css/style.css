@@ -430,6 +430,10 @@ p {
 	margin: 0 0 25px 0;
 }
 
+.hero-content strong {
+	font-weight: 700;
+}
+
 .services {
 	background: #F9F9F9;
 	padding: 100px 0 100px 0;
@@ -470,6 +474,19 @@ p {
 	margin: 10px 0 0 0;
 }
 
+.services .service-single ul {
+	list-style-type: circle;
+	padding-left: 20px;
+}
+
+
+.services .service-single ul li {
+	display: list-item;
+	font-family: Poppins;
+	font-size: 14px;
+	margin: 10px 0;
+	color: gray;
+}
 
 .btn-action {
  font-family: Roboto;
