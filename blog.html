@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Compliance Academy</title>
+    <link rel="icon" href="assets/logos/favicon.png" type="image/png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Compliance Academy">
+    <meta name="keywords" content="compliance, academy, training, conferences">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/06ec7a7a1ed0284fd2eef79ea13060ec_0.js" async></script>
+   </head>
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"2473afc88058bd29024318c7b7641cc9501503e43fcc73464d3a234dc6a496f3c55813591dea033fb124ce8a9071a48fe5f61e73399192150745dbed532590d8", values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+</script>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+          <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand page-scroll" href="#main"><img src="assets/logos/logo.png" width="232" height="51" alt="The Compliance Academy" /></a>
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="page-scroll" href="#main">Home</a></li>
+                    <li><a class="page-scroll" href="#services">Services</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+          </div>
+        </nav><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+
+    
+      <div id="services" class="services">
+        <div class="container">
+          <div class="col-md-12">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">Services</h1>
+              {% for post in site.posts %}
+              <div class="service-single">
+                <article class="post">
+
+                  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+                  <div class="entry">
+                    {{ post.excerpt }}
+                  </div>
+
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+              </article>
+              {% endfor %}           
+          </div>
+        </div>
+      </div>
+        
+      <!-- Footer Section -->
+        <div class="footer">
+          <div class="container">
+            <div class="col-md-12">
+              <div id="contact" class="contact text-center">
+                <h1>Contact Details</h1>
+                <p>082 785 0802<br>
+                   072 574 3909
+                </p>
+                <p>
+                  <a href="mailto:julie.methven@thecompliance.academy">julie.methven@thecompliance.academy</a>
+                </p>
+                             </div>
+              <div class="footer-text text-center">
+                <p>
+                  Copyright © 2017 The Compliance Academy
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Scroll To Top -->
+          <a id="back-top" class="back-to-top page-scroll" href="#main">
+          <i class="ion-ios-arrow-thin-up"></i>
+          </a>
+        <!-- Scroll To Top Ends-->
+    </div><!-- Main Section -->
+  </div><!-- Wrapper-->
+<!-- Jquery and Js Plugins -->
+  <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins.js"></script>
+  <script type="text/javascript" src="assets/js/menu.js"></script>
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108222660-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-108222660-1');
+  </script>
+  </body>
+</html>
