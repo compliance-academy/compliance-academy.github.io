@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <link rel="icon" href="{{ site.baseurl }}/assets/logos/favicon.png" type="image/png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Compliance Academy">
+    <meta name="keywords" content="compliance, academy, training, conferences">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl.theme.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ionicons.min.css"> <!-- Resource style -->
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/06ec7a7a1ed0284fd2eef79ea13060ec_0.js" async></script>
+   </head>
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"2473afc88058bd29024318c7b7641cc9501503e43fcc73464d3a234dc6a496f3c55813591dea033fb124ce8a9071a48fe5f61e73399192150745dbed532590d8", values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+</script>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+          <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#main"><img src="{{ site.baseurl }}/assets/logos/logo.png" width="232" height="51" alt="The Compliance Academy" /></a>
+              </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="page-scroll" href="{{ site.baseurl }}/index.html#main">Home</a></li>
+                    <li><a class="page-scroll" href="{{ site.baseurl }}/index.html#services">Services</a></li>
+                    <li><a class="page-scroll" href="{{ site.baseurl }}/index.html#contact">Contact</a></li>
+                    <li><a class="page-scroll" href="{{ site.baseurl }}/blog/index.html">Blog</a></li>
+                </ul>
+              </div>
+          </div>
+          </nav><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+
+      <div class="main product" id="main"><!-- Main Section-->
+        {{ content }}
+      </div>
+
+
+<!-- Jquery and Js Plugins -->
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/plugins.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/menu.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/custom.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108222660-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108222660-1');
+  </script>
+    </div>
+  </body>
+</html>
