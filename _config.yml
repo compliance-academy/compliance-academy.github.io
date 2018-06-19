@@ -1,5 +1,4 @@
 ---
-name: The Compliance Academy
 title: Compliance Academy.Github.Io
 timezone: UTC
 collections:
@@ -9,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+name: The Compliance Academy
 url: http://www.thecompliance.academy
 baseurl: ''
 permalink: "/:title/"
