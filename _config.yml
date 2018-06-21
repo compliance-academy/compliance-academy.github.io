@@ -1,6 +1,6 @@
 ---
 name: The Compliance Academy
-title: Compliance Academy.Github.Io
+title: The Compliance Academy
 timezone: UTC
 collections:
   posts:
@@ -11,4 +11,8 @@ collections:
     output: true
 url: http://www.thecompliance.academy
 baseurl: ''
-permalink: "/:title/"
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed

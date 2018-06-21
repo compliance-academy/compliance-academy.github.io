@@ -488,6 +488,65 @@ p {
 	color: gray;
 }
 
+.post{
+	background: #F9F9F9;
+	padding: 150px 0 100px 0;
+}
+
+.post h1 {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+}
+
+.post p {
+	font-size: 16px;
+	font-weight: 400;
+	color: gray;
+	line-height: 1.4;
+	margin: 10px 0 10px 0;
+}
+
+.post .service-single {
+	margin: 50px 0;
+}
+
+
+.post .service-single h1 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #222222;
+	margin: 0 0 10px 0;
+	letter-spacing: 1px;
+}
+
+.post .service-single p {
+	font-family: Poppins;
+	font-size: 14px;
+	color: gray;
+	line-height: 1.4;
+	margin: 10px 0 0 0;
+}
+
+.post .service-single ul {
+	list-style-type: circle;
+	padding-left: 20px;
+}
+
+
+.post .service-single ul li {
+	display: list-item;
+	font-family: Poppins;
+	font-size: 14px;
+	margin: 10px 0;
+	color: gray;
+}
+
+.post .date {
+	text-align: right;
+	font-size: 8pt;
+}
+
 .btn-action {
  font-family: Roboto;
  background-color: #3333CC;
