@@ -23,7 +23,7 @@ In my previous life, I was astounded to hear compliance officers say that they d
 
 
 
-(<a href> Unaoil SFO charges Unaoil for Iraq bribes
+<a href Unaoil SFO charges Unaoil for Iraq bribes>
 By Richard L. Cassin | Tuesday, June 26, 2018 at 1:08PM
 
 Unaoil's lawyer Jo Rickards of Mishcon de ReyaThe UK Serious Fraud Office said Tuesday it brought criminal charges against the Monaco-based intermediary that allegedly paid bribes in Iraq to help two companies win energy-related contracts.
