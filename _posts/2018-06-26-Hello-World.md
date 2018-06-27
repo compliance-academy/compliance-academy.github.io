@@ -23,6 +23,6 @@ In my previous life, I was astounded to hear compliance officers say that they d
 
 
 
-<a href="Unaoil.pdf"> SFO charges Unaoil for Iraq bribes
+<a href="http://www.fcpablog.com/blog/2018/6/26/sfo-charges-unaoil-for-iraq-bribes.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fcpablog%2FsLbh+%28The+FCPA+Blog%29"> SFO charges Unaoil for Iraq bribes
 By Richard L. Cassin | Tuesday, June 26, 2018 at 1:08PM
 
